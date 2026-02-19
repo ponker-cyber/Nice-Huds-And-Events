@@ -2,6 +2,14 @@
 
 Deze tutorial legt stap voor stap uit hoe je de datapack gebruikt op een survival server/wereld.
 
+## Versie-compatibiliteit (belangrijk)
+
+- Deze versie van de datapack is ingesteld voor **Minecraft / NeoForge 1.21.1** (`pack_format: 48`).
+- Zie je in-game "made for a newer version"? Doe dan:
+  1. `/datapack list`
+  2. `/reload`
+  3. Test opnieuw met `/trigger get_date` en `/trigger set_date set 20250131`
+
 ## 1) Installatie
 
 1. Download of clone de datapack.
