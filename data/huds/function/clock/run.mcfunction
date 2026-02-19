@@ -1,6 +1,3 @@
-execute as @a[tag=!huds.bossbars_ready] run function huds:create_bossbars/run
-execute as @a[tag=!huds.bossbars_ready] run tag @s add huds.bossbars_ready
-
 execute as @a unless score @s huds.clock_enabled matches 0..1 run scoreboard players set @s huds.clock_enabled 1
 execute as @a run scoreboard players enable @s clock_hud
 execute as @a[scores={clock_hud=1..}] run function huds:clock/toggle
