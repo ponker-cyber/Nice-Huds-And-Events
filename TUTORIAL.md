@@ -60,7 +60,8 @@ Voorbeelden:
 - `/trigger set_date set 20301224`
 
 Validatie in de datapack:
-- jaar moet >= 1 zijn
+- input moet exact 8 cijfers zijn (`YYYYMMDD`)
+- jaar moet 1000..9999 zijn
 - maand moet 1..12 zijn
 - dag moet passen binnen de maand (februari max 28)
 
@@ -90,7 +91,7 @@ Na `/reload` kun je dit checken:
 
 ### "Mijn HUD verschijnt niet"
 - Run `/reload`
-- Loop even rond (advancement trigger)
+- Wacht 1-2 seconden (de datapack maakt bossbars nu automatisch per speler aan)
 - Test `/trigger clock_hud` om te kijken of hij per ongeluk uit staat
 
 ### "Set date werkt niet"
